@@ -1,0 +1,50 @@
+body {
+   
+    background-color: brown;
+    font-family: 'arial', 'helvetica', sans-serif;
+    font-size: 30px; /*px, pt, em, vh, vw, */
+
+}
+
+.conductive{
+    width: 40%;         
+    position: relative;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    display: block;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.egtw {
+   position: relative;
+   display: block;
+   left: 50%; 
+   transform: translate(-50%, 0);
+}
+
+
+
+
+
+
+/* guide
+-To put in an image type: <img src="put image here" target="blank"
+-Put in (a) at beggining of a text to 
+make it refer to a link (only in .css)
+-put in <h1>any words</h1> and continue down if you want to make tghe words shrink
+-  <body>  
+A Bird Atempts To Eat A Frog    
+<a href=http://i2.cdn.cnn.com/cnnnext/dam/assets/161201161116-83-year-in-pictures-2016-restricted-super-169.jpg>link to photo</a> 
+<img src="bird%20frog.jpg"/>
+      
+Frog Doesnt Get Eaten  
+<img src="Frog%20didnt%20get%20eaten.jpg"/>
+<a href=http://www.telegraph.co.uk/content/dam/news/2016/10/21/111703057RestrictedLeopardgeckoNEWS-large_trans_NvBQzQNjv4Bqeo_i_u9APj8RuoebjoAHt0k9u7HhRJvuo-ZLenGRumA.jpg>link to photo</a>       
+  </body>  (This section of code created what was inside my website, the lines that start with <img are where i inserted my photos, the lines that start with href= are where i put the links to those photos and the titles of each are just the titles.)
+-.conductive {
+    display: block;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+   reposition a picture by changing the amount of pixels it is from the bottom, top, left or right of the page
