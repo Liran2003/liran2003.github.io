@@ -1,0 +1,32 @@
+body {
+    background-image: url("dark_embroidery/dark_embroidery.png");
+    height: 100%;
+    background-color: cornsilk;
+    font-family: 'arial', 'helvetica', sans-serif;
+    font-size: 11px; /*px, pt, em, vh, vw, */
+}
+a {
+    color: orange;
+    font-weight: normal;   
+    text-decoration: none;
+    font-size: 27;
+    background-color: mediumblue;
+    position: absolute;
+    z-index: 999;
+    margin-top: 90px;
+}
+
+ header img {
+   position: absolute;
+} 
+
+.focus {
+   height: 88px;
+   width: 100%;
+}
+
+.got {
+    z-index: 999;
+    position: absolute;
+    font-size: 40;
+}

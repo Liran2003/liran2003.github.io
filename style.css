@@ -1,0 +1,83 @@
+body {
+    background-image: url("footer_lodyas/footer_lodyas.png");
+    background-size:cover;
+    height: 100%;
+    background-color: cornsilk}
+    font-family: 'arial', 'helvetica', sans-serif;
+    font-size: 11px; /*px, pt, em, vh, vw, */
+}
+
+a {
+    color: black;
+    font-weight: normal;   
+    text-decoration; none  
+}
+
+.focus {
+    display: block;
+    margin-left: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transform: translate(-50%, 0); 
+}
+
+.generator {
+    display: block; 
+    margin-left: 50%; 
+    position: relative;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}
+
+.conductive {
+    display: block;
+    margin-left: 57%;
+    margin-bottom: 20px;
+    transform: translate(-50%, 0); 
+}
+
+.list {
+    display: block;
+    margin-left: 50%;
+    margin-bottom: 0px;
+    width: 20%;
+    height: 60%;
+    padding-bottom: 20px;
+}
+
+.built {
+    display: block;
+     margin-left: 50%;
+     margin-bottom: 100px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+}
+
+/* guide
+-To put in an image type: <img src="put image here" target="blank"
+-Put in (a) at beggining of a text to 
+make it refer to a link (only in .css)
+-put in <h1>any words</h1> and continue down if you want to make tghe words shrink
+-  <body>  
+A Bird Atempts To Eat A Frog    
+<a href=http://i2.cdn.cnn.com/cnnnext/dam/assets/161201161116-83-year-in-pictures-2016-restricted-super-169.jpg>link to photo</a> 
+<img src="bird%20frog.jpg"/>
+      
+Frog Doesnt Get Eaten  
+<img src="Frog%20didnt%20get%20eaten.jpg"/>
+<a href=http://www.telegraph.co.uk/content/dam/news/2016/10/21/111703057RestrictedLeopardgeckoNEWS-large_trans_NvBQzQNjv4Bqeo_i_u9APj8RuoebjoAHt0k9u7HhRJvuo-ZLenGRumA.jpg>link to photo</a>       
+  </body>  (This section of code created what was inside my website, the lines that start with <img are where i inserted my photos, the lines that start with href= are where i put the links to those photos and the titles of each are just the titles.)
+-.conductive {
+    display: block;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    width: 30%;
+    padding-top: 20px; 
+}
+   reposition a picture by changing the amount of pixels it is from the bottom, top, left or right of the page, also you can edit the size of your photo. with the padding-top/bottom you can edit the amoutn of pixels imbetween each photo. 
+-<link href="motors.css" rel="stylesheet" 
+type="text/css"/>  
+to link your .css to your html
+
+
+
